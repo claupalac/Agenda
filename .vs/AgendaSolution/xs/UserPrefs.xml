@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{B3FA336D-C83D-41CC-A9C7-247A4E848303}|Default">
+  <MonoDevelop.Ide.ItemProperties.Agenda PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Agenda/MenuAgenda.cs">
+    <Files>
+      <File FileName="Agenda/Program.cs" Line="14" Column="37" />
+      <File FileName="Agenda/Agenda.cs" Line="21" Column="31" />
+      <File FileName="Agenda/Contact.cs" Line="57" Column="33" />
+      <File FileName="Agenda/MenuAgenda.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AgendaSolution" expanded="True">
+            <Node name="Agenda" expanded="True">
+              <Node name="MenuAgenda.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
