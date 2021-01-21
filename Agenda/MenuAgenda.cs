@@ -23,6 +23,7 @@ namespace Agenda
         }
         public void MenuSelection (int optionSelected)
         {
+            Console.Clear();
             switch (optionSelected)
             {
                 case 1:
