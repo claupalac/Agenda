@@ -7,8 +7,13 @@ namespace Agenda
         static void Main(string[] args)
         {
             MenuAgenda myAgenda = new MenuAgenda();
-            myAgenda.MenuInicio();
-
+            while(true)
+            {
+                myAgenda.MainMenu();
+                myAgenda.ReturnToMainMenu();
+            }
+            
+           
         }
     }
 }

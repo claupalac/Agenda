@@ -20,12 +20,12 @@ namespace Agenda
             dateModif = String.Format("{0: MM/dd/yyyy HH:mm:ss}", dt);
         }
 
-        public void ChangeContactNameWith(string newContactName)
+        public void UpdateContactName(string newContactName)
         {
             contactName = newContactName;
         }
 
-        public void ChangeTelfNumberWith(int newTelfNumber)
+        public void UpdateNumerContact(int newTelfNumber)
         {
             telfNumber = newTelfNumber;
         }
@@ -37,16 +37,13 @@ namespace Agenda
                 switch (opcion)
                 {
                     case "name":
-                        ChangeContactNameWith(newValue);
+                        UpdateContactName(newValue);
                         break;
                     case "number":
-                        ChangeTelfNumberWith(Convert.ToInt32(newValue));
+                        UpdateNumerContact(Convert.ToInt32(newValue));
                         break;
                     default:
                         return false;
-                        
-
-
                 }
                 RefreshDate();
                 return true;

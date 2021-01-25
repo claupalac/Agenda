@@ -21,7 +21,7 @@ namespace Agenda
             int indexContacts;
             for (indexContacts = 0; indexContacts < contactsList.Count; indexContacts++ )
             {
-                Console.WriteLine("\n{0}."+ contactsList[indexContacts], indexContacts);               
+                Console.WriteLine("\n{0}."+ contactsList[indexContacts], indexContacts+1);               
             }
         }
         public void AddNewContact(string newNameContact, int newTelfNumber)
@@ -32,6 +32,11 @@ namespace Agenda
         public void DeleteContact(int pos)
         {
             contactsList.RemoveAt(pos);
+        }
+
+        public void DeleteContactByIndexOne(int pos)
+        {
+            contactsList.RemoveAt(pos-1);
         }
 
         public void EditContact(int pos, string dataUpdate, string newValue)

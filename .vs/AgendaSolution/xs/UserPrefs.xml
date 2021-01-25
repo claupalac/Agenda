@@ -1,18 +1,27 @@
 ﻿<Properties StartupConfiguration="{B3FA336D-C83D-41CC-A9C7-247A4E848303}|Default">
   <MonoDevelop.Ide.ItemProperties.Agenda PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Agenda/MenuAgenda.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Agenda/Actions/DoNothing.cs">
     <Files>
-      <File FileName="Agenda/Program.cs" Line="15" Column="1" />
-      <File FileName="Agenda/Agenda.cs" Line="25" Column="14" />
-      <File FileName="Agenda/Contact.cs" Line="70" Column="9" />
-      <File FileName="Agenda/MenuAgenda.cs" Line="26" Column="29" />
+      <File FileName="Agenda/Program.cs" Line="12" Column="37" />
+      <File FileName="Agenda/Agenda.cs" Line="21" Column="31" />
+      <File FileName="Agenda/Contact.cs" Line="54" Column="29" />
+      <File FileName="Agenda/MenuAgenda.cs" Line="15" Column="6" />
+      <File FileName="Agenda/AddContact.cs" Line="12" Column="10" />
+      <File FileName="Agenda/IAction.cs" Line="6" Column="17" />
+      <File FileName="Agenda/DeleteContact.cs" Line="10" Column="10" />
+      <File FileName="Agenda/EditContact.cs" Line="11" Column="10" />
+      <File FileName="Agenda/Actions/ShowContacts.cs" Line="4" Column="30" />
+      <File FileName="Agenda/ActionRunner.cs" Line="24" Column="49" />
+      <File FileName="Agenda/Actions/DoNothing.cs" Line="9" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AgendaSolution" expanded="True">
             <Node name="Agenda" expanded="True">
-              <Node name="MenuAgenda.cs" selected="True" />
+              <Node name="Actions" expanded="True">
+                <Node name="DoNothing.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
